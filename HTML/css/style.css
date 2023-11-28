@@ -3723,6 +3723,25 @@ form .bootstrap-select .btn{
 
 /* == APORTE DE RAÚL  == */
 
+/* --------- Paleta de colores --------- */
+
+:root {
+	--main-color-1:#000000;
+	--main-color-2:#FFBB12;
+	--main-color-3:#E24A24
+
+	--main-color-1-soft:#222222;
+	--main-color-2-soft:#FFDF8F;
+	--main-color-3-soft:#E87254;
+
+	--main-color-1-extralight:#ABABAB; 
+	--main-color-2-extralight:#FFF2D1;
+	--main-color-3-extralight:#F0A28F
+	;
+}
+
+
+
 
 /* == APORTE DE LUIS  == */
 
