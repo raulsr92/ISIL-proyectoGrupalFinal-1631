@@ -3740,7 +3740,19 @@ form .bootstrap-select .btn{
 	;
 }
 
+/* --------- Fuentes --------- */
+:root {
+	font-size: 20px; /* MEDIDA BASE: 20px = 1rem */
+}
 
+/* --------- De aquí copiar los estilos para el tipo de fuente ---------
+Encabezados:
+font-family: 'Vollkorn', serif;
+
+Párrafos:
+font-family: 'Kanit', sans-serif;
+
+*/
 
 
 /* == APORTE DE LUIS  == */
