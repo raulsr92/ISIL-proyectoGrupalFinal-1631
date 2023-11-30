@@ -5,7 +5,7 @@ Repositorio del proyecto final del curso de Diseño y Desarrollo Web de ISIL
 🧡Mira la [demo de la página 👀](https://raulsr92.github.io/ISIL-proyectoGrupalFinal-1631/HTML/).
 
 > Equipo: 
-    ⭐Raúl 
+    ⭐Raúl Sanchez
     ⭐Yamile
     ⭐Brenda
     ⭐Luis Mendoza 
