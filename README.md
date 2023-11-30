@@ -8,4 +8,4 @@ Repositorio del proyecto final del curso de Diseño y Desarrollo Web de ISIL
     ⭐Raúl 
     ⭐Yamile
     ⭐Brenda
-    ⭐Luis
+    ⭐Luis Mendoza 
