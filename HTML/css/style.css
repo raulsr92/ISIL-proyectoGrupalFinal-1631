@@ -3817,7 +3817,6 @@ font-family: 'Kanit', sans-serif;
 
 /* --------- Extras--------- */
 
-
 .logo-main img{
 	max-height: 80px;
 }
@@ -3833,6 +3832,39 @@ font-family: 'Kanit', sans-serif;
 .dish .box{
 	border: none!important;
 }
+
+
+/* --------- Formulario página INDEX.html--------- */
+
+input::placeholder {
+	color: var(--main-color-2-superextralight)!important;
+	font-size: 0.9rem!important;
+}
+
+input{
+	color: var(--main-color-2-superextralight)!important;
+}
+
+.reservation form .bootstrap-select .btn{
+	color: var(--main-color-2-superextralight)!important;
+}
+
+.form-control{
+	border: 1px solid var(--main-color-2-soft)!important;
+}
+
+.filter-option:after{
+	color: var(--main-color-2-superextralight)!important;
+}
+
+.select-number-persons{
+	border: 1px solid var(--main-color-2-soft)!important;
+}
+
+.dropdown-toggle{
+	border: 0!important;
+}
+
 
 
 
@@ -3872,3 +3904,10 @@ font-family: 'Kanit', sans-serif;
 
 
 /* == APORTE DE YAMILE  == */
+
+
+/* --------- íconos--------- */
+
+.icons-statics{
+	color: var(--main-color-2-soft)!important;
+}
