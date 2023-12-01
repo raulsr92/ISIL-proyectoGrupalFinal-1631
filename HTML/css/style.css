@@ -46,6 +46,8 @@
 body{
 	font-family: 'segoeui';
 	font-weight:400;
+	background: var(--main-color-2-extralight);
+	color: #000;
 }
 a:hover,a{
 	text-decoration:none;
@@ -98,7 +100,8 @@ a:focus{
 	margin-bottom:80px;
 }
 .btn-primary{
-	background:transparent;
+	/*background:transparent;*/
+	background: rgba(255, 187, 18,0.15);
 	color:#fff;
 	text-transform:uppercase;
 	font-weight:700;
@@ -144,7 +147,7 @@ a:focus{
 [ Header / header ]
 ---------------------*/
 header{
-	background: rgba(0, 0, 0, 0.45);
+	background: rgb(0, 0, 0);
     position: absolute;
     left: 0;
     right: 0;
@@ -418,10 +421,11 @@ header #logo{
 	text-transform:uppercase;
 	margin:50px 0 24px;
 }
+
 .commontop p{
 	font-size:14px;
 	font-weight:400;
-	color:#686868;
+	color:var(--main-color-1);
 	margin:0 10% 24px;
 }
 .commontop hr{
@@ -645,7 +649,8 @@ header #logo{
 [ reservation / .reservation ]
 ---------------------------------- */
 .reservation{
-	background:url(../images/reservation_bg.jpg) center center no-repeat;
+	/*background:url(../images/reservation_bg.jpg) center center no-repeat;*/
+	background: var(--main-color-1);
 	width:100%;
 	height:522px;
 }
@@ -876,7 +881,8 @@ header #logo{
 [ footer / .footer ]
 ------------------------ */
 footer{
-	background:url(../images/footer_bg.jpg) center center no-repeat;
+	/*background:url(../images/footer_bg.jpg) center center no-repeat;*/
+	background: #000;
 }
 footer .inner{
 	padding:63px 0 80px;
@@ -3728,7 +3734,7 @@ form .bootstrap-select .btn{
 :root {
 	--main-color-1:#000000;
 	--main-color-2:#FFBB12;
-	--main-color-3:#E24A24
+	--main-color-3:#E24A24;
 
 	--main-color-1-soft:#222222;
 	--main-color-2-soft:#FFDF8F;
@@ -3758,28 +3764,67 @@ font-family: 'Kanit', sans-serif;
 
 
 .boton-tipo-1{
-	display: inline-block;
-	background: var(--icons);
-	color:var(--alternative-color2);
+	background: var(--main-color-2)!important;
+	color:var(--main-color-1-soft)!important;
 	font-family: 'Kanit', sans-serif;
 	font-weight: 700;
-	border-radius: 20px;
+	border-radius: 5px;
 	padding: 10px 25px;
+	cursor: pointer;
 	text-decoration: none;
-	margin: 2% 0;
 	transition: all 400ms ease-in-out;
 }
 
 .boton-tipo-1:hover {
-	background:var(--main-color-1-soft);
-	color: var(--main-color-2);
-	cursor: pointer;
+	background:var(--main-color-1-soft)!important;
+	color: var(--main-color-2)!important;
 	outline: 2px solid var(--main-color-2);
-	transform: scale(1.2);
 	border-radius: 0;
 }
 
+.boton-tipo-2{
+	background: var(--main-color-2)!important;
+	color:var(--main-color-1)!important;
+	font-family: 'Kanit', sans-serif;
+	font-weight: 700;
+	border-radius: 5px;
+	padding: 10px 25px;
+	text-decoration: none;
+	transition: all 200ms ease-in-out;
+}
 
+.boton-tipo-2:hover {
+	background:var(--main-color-2-soft)!important;
+	color: var(--main-color-1-soft)!important;
+	cursor: pointer;
+	border: 3px solid var(--main-color-2)!important;
+}
+
+.boton-tipo-2{
+	background: var(--main-color-2)!important;
+	color:var(--main-color-1)!important;
+	font-family: 'Kanit', sans-serif;
+	font-weight: 700;
+	border-radius: 5px;
+	padding: 10px 25px;
+	text-decoration: none;
+	transition: all 200ms ease-in-out;
+}
+
+.boton-tipo-2:hover {
+	background:var(--main-color-2-soft)!important;
+	color: var(--main-color-1-soft)!important;
+	cursor: pointer;
+	border: 3px solid var(--main-color-2)!important;
+}
+
+.logo-main img{
+	max-height: 80px;
+}
+
+.footer-logo img{
+	max-height: 80px;
+}
 
 
 
