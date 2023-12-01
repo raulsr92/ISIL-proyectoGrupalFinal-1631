@@ -429,7 +429,7 @@ header #logo{
 	margin:0 10% 24px;
 }
 .commontop hr{
-	border-top:2px solid #FFA41F;
+	border-top:2px solid var(--main-color-2);
 	margin:0 auto 50px;
 	width:100px;
 	opacity: 1;
@@ -492,7 +492,8 @@ header #logo{
 [ about / .about ]
 ----------------------- */
 .about{
-	background:url(../images/about_bg.jpg) center center no-repeat;
+	/*background:url(../images/about_bg.jpg) center center no-repeat;*/
+	background: var(--main-color-2-soft);
 	width:100%;
 	height:621px;
 }
@@ -515,7 +516,7 @@ header #logo{
 [ menu / .menu ]
 ----------------------- */
 .menu .nav-tabs {
-	border:1px solid #E5E5E5;
+	border:1px solid var(--main-color-2);
 	margin:0 10% 47px;
 	padding:20px 0;
 	text-align:center;
@@ -540,15 +541,21 @@ header #logo{
 	border-radius:4px;
 }
 .menu .nav-tabs > li.active > a, 
-.menu .nav-tabs > li .nav-link.active,
+.menu .nav-tabs > li .nav-link.active{
+	color:#fff;
+	background:var(--main-color-2);	
+	border:none;
+} 
+
 .menu .nav-tabs > li.active > a:focus, 
 .menu .nav-tabs > li > a:hover{
 	color:#fff;
-	background:#FFA41F;	
+	background:var(--main-color-3);	
 	border:none;
 } 
+
 .menu .box{
-	border:1px solid #E5E5E5;
+	border:1px solid var(--main-color-2);
 	margin-bottom:30px;	
 }
 .menu .box .image{
@@ -733,7 +740,7 @@ header #logo{
 	top:40%;
 }
 .gallery .product-thumb .image .show i {
-	color:#FFA41F;
+	color:var(--main-color-2);
 	font-size:60px;
 	cursor:pointer;
 	transition: transform 0.35s ease 0s;
@@ -3274,7 +3281,8 @@ form .bootstrap-select .btn{
 		margin:0 5px 5px;
 	}
 	.about {
-		background: url(../images/about_bg.jpg) -183px 0px no-repeat;
+		/*background: url(../images/about_bg.jpg) -183px 0px no-repeat;*/
+		background: var(--main-color-1-extralight);
 		width: 100%;
 		height: auto;
 		padding: 0 0 20px;
@@ -3737,12 +3745,15 @@ form .bootstrap-select .btn{
 	--main-color-3:#E24A24;
 
 	--main-color-1-soft:#222222;
-	--main-color-2-soft:#FFDF8F;
+	--main-color-2-soft:#FFE5A3;
 	--main-color-3-soft:#E87254;
 
 	--main-color-1-extralight:#ABABAB; 
 	--main-color-2-extralight:#FFF2D1;
-	--main-color-3-extralight:#F0A28F
+	--main-color-3-extralight:#F0A28F;
+
+	--main-color-2-superextralight:#FFEBB8;
+	--main-color-3-superextralight:#F5BEB1;
 	;
 }
 
@@ -3783,8 +3794,8 @@ font-family: 'Kanit', sans-serif;
 }
 
 .boton-tipo-2{
-	background: var(--main-color-2)!important;
-	color:var(--main-color-1)!important;
+	background: var(--main-color-3)!important;
+	color:white!important;
 	font-family: 'Kanit', sans-serif;
 	font-weight: 700;
 	border-radius: 5px;
@@ -3794,13 +3805,14 @@ font-family: 'Kanit', sans-serif;
 }
 
 .boton-tipo-2:hover {
-	background:var(--main-color-2-soft)!important;
-	color: var(--main-color-1-soft)!important;
+	background:var(--main-color-2-extralight)!important;
+	color: var(--main-color-3)!important;
 	cursor: pointer;
-	border: 3px solid var(--main-color-2)!important;
+	border: 3px solid var(--main-color-3)!important;
+	box-shadow: 0px 0px 8px 1px var(--main-color-3-soft);
 }
 
-.boton-tipo-2{
+.boton-tipo-3{
 	background: var(--main-color-2)!important;
 	color:var(--main-color-1)!important;
 	font-family: 'Kanit', sans-serif;
@@ -3811,7 +3823,7 @@ font-family: 'Kanit', sans-serif;
 	transition: all 200ms ease-in-out;
 }
 
-.boton-tipo-2:hover {
+.boton-tipo-3:hover {
 	background:var(--main-color-2-soft)!important;
 	color: var(--main-color-1-soft)!important;
 	cursor: pointer;
