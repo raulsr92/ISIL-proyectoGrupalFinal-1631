@@ -933,7 +933,7 @@ footer .powered{
 	padding:0 0 25px;
 }
 footer .powered hr{
-	border-top:1px solid rgba(255, 255, 255, 0.25);
+	border-top:1px solid var(--main-color-2-extralight);
 	margin:0 0 44px;
 	opacity: 1;
 }
@@ -960,9 +960,9 @@ footer .powered .social li a{
 	color:#fff;
 	font-size:16px;
 }
-footer .powered .social li a:hover i{
+/*footer .powered .social li a:hover i{
 	color:#FFA41F;
-}
+}*/
 /*----------------------
 [ header2 / .header2 ]
 ------------------------ */
@@ -3945,6 +3945,32 @@ input{
 }
 
 /* == APORTE DE BRENDA  == */
+
+/* --------- Hipérvínculo de footer--------- */
+
+.enlace-footer{
+	color: white!important;
+	font-family: 'Kanit', sans-serif!important;
+	font-size: 0.7rem!important;
+	font-weight: 600!important;
+	line-height: 1.05rem!important;
+}
+
+.enlace-footer:hover{
+	color: var(--main-color-2)!important;
+}
+
+.enlace-icon-footer{
+	color: white!important;
+	font-family: 'Kanit', sans-serif!important;
+	font-size: 1rem!important;
+	font-weight: 600!important;
+	transition: all 100ms ease-in-out;
+}
+
+.enlace-icon-footer:hover{
+	color: var(--main-color-2)!important;
+}
 
 
 
