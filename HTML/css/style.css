@@ -843,7 +843,7 @@ header #logo{
 [ newsletter / .newsletter ]
 ------------------------------- */
 #newsletter{
-	background:#FFA41F;
+	background:var(--main-color-3);
 	padding:26px 0;
 }
 #newsletter .news{
@@ -859,7 +859,7 @@ header #logo{
 	font-size:13px;
 	font-weight:400;
 	color:#fff;
-	border-left:1px solid #D88100;
+	border-left:1px solid var(--main-color-3-extralight);
 	padding: 10px 0 15px 26px;
 }
 #newsletter .form-group{
@@ -3756,6 +3756,8 @@ form .bootstrap-select .btn{
 	--main-color-1-superextralight:#E4E4E4; 
 	--main-color-2-superextralight:#FFEBB8;
 	--main-color-3-superextralight:#F5BEB1;
+
+	--main-color-3-hard:#972F15;
 	;
 }
 
@@ -3774,7 +3776,6 @@ font-family: 'Kanit', sans-serif;
 */
 
 /* --------- Hipervínculos de botones --------- */
-
 
 .boton-tipo-1{
 	background: var(--main-color-2)!important;
@@ -3814,7 +3815,24 @@ font-family: 'Kanit', sans-serif;
 	box-shadow: 0px 0px 8px 1px var(--main-color-3-soft);
 }
 
+.boton-tipo-3{
+	background: var(--main-color-3-extralight)!important;
+	color:var(--main-color-1-soft)!important;
+	font-family: 'Kanit', sans-serif;
+	font-weight: 700;
+	border-radius: 5px;
+	/*padding: 10px 25px;*/
+	text-decoration: none;
+	transition: all 200ms ease-in-out;
+}
 
+.boton-tipo-3:hover {
+	background:var(--main-color-3-hard)!important;
+	color: white!important;
+	cursor: pointer;
+	border: 1px solid var(--main-color-3-extralight)!important;
+	box-shadow: 0px 0px 8px 1px var(--main-color-3-soft);
+}
 
 /* --------- Extras--------- */
 
@@ -3839,7 +3857,7 @@ font-family: 'Kanit', sans-serif;
 
 input::placeholder {
 	color: var(--main-color-2-superextralight)!important;
-	font-size: 0.9rem!important;
+	font-size: 0.7rem!important;
 }
 
 input{
@@ -3848,6 +3866,7 @@ input{
 
 .reservation form .bootstrap-select .btn{
 	color: var(--main-color-2-superextralight)!important;
+	font-size: 0.7rem!important;
 }
 
 .form-control{
@@ -3871,8 +3890,28 @@ input{
 	border: 0!important;
 }
 
+/* --------- Newsletter página INDEX.html--------- */
 
+/* color de place holder el elemento input */
+.input-group input::placeholder {
+	color: var(--main-color-3)!important;
+	font-size: 0.8rem!important;
+	font-weight: 600;
+}
 
+/* color del borde del elemento input al hacer click*/
+.input-group input:focus{
+	outline: 3px solid var(--main-color-3-hard)!important;
+}
+
+/* color de texto al escribir dentro de input */
+
+.input-group input{
+	color:var(--main-color-3-hard)!important;
+	font-weight: 600;
+	font-size: 0.8rem!important;
+
+}
 
 /* == APORTE DE LUIS  == */
 
