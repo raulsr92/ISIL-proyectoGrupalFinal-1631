@@ -2151,11 +2151,11 @@ form .bootstrap-select .btn{
 	text-transform:uppercase;
 }
 .shop .left h3 a{
-	color:#b2b2b2;
+	color:var(--main-color-3);
 }
 .shop .left .popular ul li{
-	background:#f4f4f4;
-	border:1px solid #e5e5e5;
+	background:var(--main-color-3-superextralight);
+	border:1px solid var(--main-color-3-extralight);
 	border-radius:4px;
 	padding:8px;
 	margin:0 5px 8px 0;
@@ -2167,7 +2167,7 @@ form .bootstrap-select .btn{
 }
 .shop .left .popular ul li a{ 
 	font-size:12px;
-	color:#686868;
+	color:var(--main-color-3-hard);
 }
 .price-filter{
 	position:relative;
@@ -2175,12 +2175,12 @@ form .bootstrap-select .btn{
 	margin-top:38px;
 }
 .price-range { 
-	border: 4px solid #FFA41F;
-	background:#FFA41F ;
+	border: 4px solid var(--main-color-2);
+	background:var(--main-color-2);
 	height:4px;
 }
 .price-range .bg{
-	background: #F3F3F3;
+	background:var(--main-color-1-superextralight);
 	height: 8px;
 	margin-left: 86px;
 	margin-top: -4px;
@@ -2246,17 +2246,17 @@ form .bootstrap-select .btn{
 	margin:0px 0 0px;
 }
 .shop .left .rating ul li i{
-	color:#FFA41F;
+	color:var(--main-color-2);
 }
 .shop .left .rating ul li:nth-child(2) i:last-child, .shop .left .rating ul li:nth-child(3) i:nth-child(5), .shop .left .rating ul li:nth-child(3) i:last-child, .shop .left .rating ul li:nth-child(4) i:nth-child(4), .shop .left .rating ul li:nth-child(4) i:nth-child(5), .shop .left .rating ul li:nth-child(4) i:last-child, .shop .left .rating ul li:last-child i:nth-child(3), .shop .left .rating ul li:last-child i:nth-child(4), .shop .left .rating ul li:last-child i:nth-child(5), .shop .left .rating ul li:last-child i:last-child{
-	color:#b2b2b2;
+	color:var(--main-color-1-extralight);
 }
 
 .shop .product-thumb {
 	margin-bottom:50px;
 }
 .shop .product-thumb .image{
-	border:1px solid #e5e5e5;
+	border:1px solid var(--main-color-3);
 	position:relative;
 	border-radius:4px;
 	text-align: center;
@@ -2300,10 +2300,10 @@ form .bootstrap-select .btn{
 }
 .shop .product-thumb .caption .rating i{
 	font-size:18px;
-	color:#FFA41F;
+	color:var(--main-color-2);
 }
 .shop .product-thumb .caption .rating i:last-child{
-	color:#b2b2b2;
+	color:var(--main-color-1-extralight);
 }
 .shop .product-thumb .caption .price{
 	font-size:22px;
@@ -2373,10 +2373,10 @@ form .bootstrap-select .btn{
 }
 .shopdetail .rating i{
 	font-size:18px;
-	color:#FFA41F;
+	color:var(--main-color-2);
 }
 .shopdetail .rating i:last-child{
-	color:#b1b1b1;
+	color:var(--main-color-1-extralight);
 }
 .shopdetail .price{
 	font-size:22px;
@@ -2445,9 +2445,13 @@ form .bootstrap-select .btn{
 }
 .shopdetail .nav-tabs > li:hover a,
 .shopdetail .nav-tabs > li .nav-link.active{
-	background:#FFA41F;
+	background:var(--main-color-2);
 	color:#fff;
 	border:none;
+}
+
+.nav-tabs{
+	border-bottom: 2px solid var(--main-color-3)!important;
 }
 
 .shopdetail .nav-tabs > li a{
@@ -2465,7 +2469,7 @@ form .bootstrap-select .btn{
 	color:#686868;
 }
 .shopdetail #tab-review .box{
-	border-bottom:1px solid #e5e5e5;
+	border-bottom:1px solid var(--main-color-3-extralight);
 	margin-bottom:20px; 
 }
 .shopdetail #tab-review .box:last-child{
@@ -2519,7 +2523,7 @@ form .bootstrap-select .btn{
 	margin:0 0 10px;
 }
 .shopdetail #form-review .rating i{
-	color:#b2b2b2;
+	color:var(--main-color-1-extralight);
 }
 .shopdetail #form-review .buttons .btn-primary{
 	background:#FFA41F;
