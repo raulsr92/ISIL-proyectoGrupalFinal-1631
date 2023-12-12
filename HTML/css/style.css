@@ -1461,7 +1461,7 @@ form .bootstrap-select .btn{
     position: absolute;
     right: 18px;
     padding: 15px 12px;
-    color: #FFA41F;
+    color: var(--main-color-3);
 }
 .reserved form .bootstrap-select{
 	padding:0;
@@ -3921,7 +3921,7 @@ input{
 }
 
 .filter-option:after{
-	color: var(--main-color-2-superextralight)!important;
+	color: var(--main-color-2)!important;
 }
 
 .select-number-persons{
@@ -4056,6 +4056,11 @@ input[type="radio"]{
 	font-size: 17px!important;
 }
 
+.form-control-5 option{
+	font-weight: 500!important;
+	font-size: 17px!important;
+}
+
 /*========= Estilos en about_us.html =========*/
 
 .box-our-team{
@@ -4084,6 +4089,12 @@ input[type="radio"]{
 .enlace-icon-circle:hover{
 	background-color: var(--main-color-3-hard)!important;
 	color: var(--main-color-2-extralight)!important;
+}
+
+/*========= Estilos en reservation.html =========*/
+
+.filter-option-inner-inner{
+	font-size: 17px!important;
 }
 
 /* == APORTE DE LUIS  == */
