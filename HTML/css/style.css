@@ -4103,6 +4103,25 @@ input[type="radio"]{
 	column-gap: 20px;
 }
 
+/*========= Estilos en shop.html =========*/
+
+.enlace-icon-show{
+	color: var(--main-color-3-extralight)!important;
+	border: 1px solid var(--main-color-3-extralight)!important;
+
+	transition: all 100ms ease-in-out;
+}
+
+.enlace-icon-show:hover{
+	color: var(--main-color-3)!important;
+}
+
+.enlace-paginas{
+	border: 1px solid var(--main-color-3)!important;
+	color: var(--main-color-3)!important;
+}
+
+
 /* == APORTE DE LUIS  == */
 
 /* --------- Parrafos--------- */
