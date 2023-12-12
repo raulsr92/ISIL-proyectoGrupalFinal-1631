@@ -3918,13 +3918,15 @@ input{
 /* --------- Parrafos--------- */
 
 .p-content{
-	font-size: 1rem;
-	line-height: 1.5rem;
+	font-size: 0.7rem;
+	line-height: 1.05rem;
+	color: var(--main-color-1-extralight);
 }
 
 .p-lead {
-	font-size: 1.3rem;
-	line-height: 1.95rem;
+	font-size: 0.8rem;
+	line-height: 1.2rem;
+	color: var(--main-color-1-superextralight);
 }
 .p--little{
 	font-size: 0.7rem;
@@ -3934,14 +3936,13 @@ input{
 .p--footer {
 	font-size: 0.8rem;
 	line-height: 1.2rem;
-	color: #fff;
-	margin-bottom: 0;
+	color: var(--main-color-1-superextralight);
 }
 
 .p--body_text{
-	font-size: 1rem;
-	line-height: 1.5rem;
-	font-weight: 300;
+	font-size: 0.7rem;
+	line-height: 1.05rem;
+	color: var(--main-color-1-extralight)
 }
 
 /* == APORTE DE BRENDA  == */
