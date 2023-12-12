@@ -3972,6 +3972,11 @@ input{
 	color: var(--main-color-2)!important;
 }
 
+.owl-nav .owl-next .icofont-scroll-bubble-right, .owl-nav .owl-prev .icofont-scroll-bubble-left{
+	color: var(--main-color-3-hard)!important;
+}
+
+
 
 
 /* == APORTE DE YAMILE  == */
