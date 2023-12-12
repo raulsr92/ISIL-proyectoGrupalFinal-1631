@@ -4121,6 +4121,12 @@ input[type="radio"]{
 	color: var(--main-color-3)!important;
 }
 
+/*========= Estilos en contact_us.html =========*/
+
+iframe{
+	border: 4px solid var(--main-color-2)!important;
+}
+
 
 /* == APORTE DE LUIS  == */
 
