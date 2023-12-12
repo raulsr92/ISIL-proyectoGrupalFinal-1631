@@ -228,8 +228,8 @@ header #logo{
 #menu .navbar-nav > li > a{
 	background-color: transparent;
 	color: #fff;
-	font-size: 13px;
-	font-weight: 500;
+	font-size: 15px;
+	font-weight: 800;
 	padding:0;
 	line-height: 14px;
 	text-transform:uppercase;
@@ -4095,6 +4095,12 @@ input[type="radio"]{
 
 .filter-option-inner-inner{
 	font-size: 17px!important;
+}
+
+/*========= Estilos en NAVBAR =========*/
+
+.navbar-customize{
+	column-gap: 20px;
 }
 
 /* == APORTE DE LUIS  == */
