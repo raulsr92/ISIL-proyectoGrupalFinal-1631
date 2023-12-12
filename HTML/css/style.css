@@ -3910,8 +3910,14 @@ input{
 	color:var(--main-color-3-hard)!important;
 	font-weight: 600;
 	font-size: 0.8rem!important;
-
 }
+
+/* --------- Imagen superior de our-menu.html--------- */
+
+#banner-our-menu{
+	object-fit: cover;
+}
+
 
 /* == APORTE DE LUIS  == */
 
