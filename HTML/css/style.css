@@ -3943,6 +3943,33 @@ input[type="radio"]{
 	accent-color: var(--main-color-3)!important;
 }
 
+/* === SEARCH BAR ====*/
+
+/* color de place holder el elemento input */
+
+.form-control-3::placeholder {
+	color: var(--main-color-1-soft)!important;
+	font-weight: 300;
+}
+
+/* color del borde del elemento input SIN hacer click*/
+.form-control-3{
+	border: 3px solid var(--main-color-2)!important;
+}
+
+/* color del borde del elemento input al hacer click*/
+
+.form-control-3:focus{
+	border: 3px solid var(--main-color-3)!important;
+}
+
+/* color de texto al escribir sobre elemento input */
+
+.form-control-3{
+	color: var(--main-color-3)!important;
+	font-weight: 800!important;
+}
+
 
 
 
