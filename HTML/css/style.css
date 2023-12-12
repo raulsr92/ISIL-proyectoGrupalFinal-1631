@@ -2548,16 +2548,16 @@ form .bootstrap-select .btn{
 	text-align:center;
 }
 .mycart .nav-tabs  .nav-link.active  span{
-	background:#FFA41F;
-	border:1px solid #FFA41F;
-	color:#fff;
+	background:var(--main-color-2);
+	border:1px solid var(--main-color-2);
+	color:white;
 }
 .mycart .nav-tabs li span{
 	display:block;
 	font-size:22px;
 	font-weight:700;
 	color:#000;
-	border:1px solid #e5e5e5;
+	border:1px solid var(--main-color-3);
 	background:transparent;
 	border-radius:50%;
 	margin:0 auto 20px;
@@ -2566,6 +2566,7 @@ form .bootstrap-select .btn{
 	padding:8px;
 	background:#fff;
 	text-align: center;
+	cursor: pointer;
 }
 .mycart .nav-tabs > li > a{
 	padding:0;
@@ -2588,7 +2589,7 @@ form .bootstrap-select .btn{
 
 .mycart .nav-tabs:after{
 	content: '';
-    border-top: 2px solid #e5e5e5;
+    border-top: 2px solid var(--main-color-3);
     position: absolute;
     top: 27px;
     left: 0;
@@ -2596,6 +2597,34 @@ form .bootstrap-select .btn{
     margin: 0 17%;
     z-index: -1;
 }
+
+.new-line{
+	border-bottom: 0!important;
+}
+
+.table-bordered{
+	border: 1px solid var(--main-color-3)!important;
+	border-top: 1px solid var(--main-color-3)!important;
+}
+
+.table-bordered thead{
+	border: 1px solid var(--main-color-3)!important;
+}
+
+.table-bordered tbody{
+	border: 1px solid var(--main-color-3)!important;
+}
+
+.table-bordered tr{
+	border: 1px solid var(--main-color-3)!important;
+}
+
+.table-bordered td{
+	border-top: 1px solid var(--main-color-3)!important;
+}
+
+
+
 .mycart  table {
     border-left: 1px solid #cccc;
     border-right: 1px solid #cccc;
@@ -2630,7 +2659,7 @@ form .bootstrap-select .btn{
 .mycart #tab-cart td img{
 	margin:0 20px 0 0;
 	float:left;
-	border:1px solid #e5e5e5;
+	border:1px solid var(--main-color-3);
 }
 .mycart #tab-cart td .name h4{
 	font-size:16px;
@@ -2646,10 +2675,10 @@ form .bootstrap-select .btn{
 }
 .mycart #tab-cart td .rating i{
 	font-size:14px;
-	color:#FFA41F;
+	color:var(--main-color-2);
 }
 .mycart #tab-cart td .rating i:last-child{
-	color:#b2b2b2;
+	color:var(--main-color-1-extralight);
 }
 .mycart #tab-cart tbody tr td:nth-child(2), .mycart #tab-cart tbody tr td:nth-child(4){
 	font-size:18px;
@@ -2664,14 +2693,14 @@ form .bootstrap-select .btn{
     position: absolute;
     left:0;
     cursor: pointer;
-    top:3px;
+    top:0px;
     bottom:auto;
 }
 .mycart #tab-cart .qtypara .add {
 	position: absolute;
     cursor: pointer;
 	right:0;
-	top:3px;
+	top:0px;
     bottom:auto;
 }
 .mycart #tab-cart .qtypara .add .icofont {
@@ -2715,7 +2744,7 @@ form .bootstrap-select .btn{
 	color:#fff;
 }
 .mycart #tab-info, .mycart #tab-payment {
-	border:1px solid #e5e5e5;
+	border:1px solid var(--main-color-3);
 	border-radius:4px;
 	padding:50px 30px;
 }
@@ -2743,7 +2772,7 @@ form .bootstrap-select .btn{
 	margin:0 0 50px;
 }
 .mycart #tab-payment form .link li{
-	border:3px solid #e5e5e5;
+	border:3px solid var(--main-color-3-extralight);
 	padding:23px 13px;
 	border-radius:50%;
 	margin-right:20px;
@@ -3982,7 +4011,49 @@ input[type="radio"]{
 	font-weight: 800!important;
 }
 
-/*========= Adicionales =========*/
+/*========= Estilos en shoppingcat.html =========*/
+
+.icon-enlace-minus, .icon-enlace-plus{
+	background-color: var(--main-color-3)!important;	
+	color: var(--main-color-2-soft)!important;
+}
+
+/* === ORDER BAR ====*/
+
+.form-control-4{
+	border: 1px solid var(--main-color-3)!important;
+	color: var(--main-color-1-soft)!important;
+	font-weight: 600!important;
+}
+
+
+/* === SHOPPING INFO ====*/
+
+/* color de place holder el elemento input */
+
+.form-control-5::placeholder {
+	color: var(--main-color-1-soft)!important;
+	font-weight: 300;
+}
+
+/* color del borde del elemento input SIN hacer click*/
+.form-control-5{
+	border: 2px solid var(--main-color-2)!important;
+}
+
+/* color del borde del elemento input al hacer click*/
+
+.form-control-5:focus{
+	border: 3px solid var(--main-color-3)!important;
+}
+
+/* color de texto al escribir sobre elemento input */
+
+.form-control-5{
+	color: var(--main-color-3)!important;
+	font-weight: 500!important;
+	font-size: 17px!important;
+}
 
 
 
