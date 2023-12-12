@@ -2085,13 +2085,15 @@ form .bootstrap-select .btn{
     border-bottom-left-radius: 4px;
 }
 .shop .left{
-	border:1px solid #e5e5e5;
+	border:1px solid var(--main-color-3);
 	border-radius:4px;
 } 
 .shop .left h4{
-	background:#FFA41F;
+	background:var(--main-color-2);
+	border-top-left-radius:4px;
+	border-top-right-radius:4px;
 	text-align:center;
-	color:#fff;
+	color:var(--main-color-1-soft);
 	margin:0;
 	font-size:18px;
 	font-weight:600;
@@ -2100,7 +2102,7 @@ form .bootstrap-select .btn{
 }
 .shop .left .search, .shop .left .food, .shop .left .popular, .shop .left .price{
 	padding: 20px 14px;
-	border-bottom:1px solid #e5e5e5;
+	border-bottom:1px solid var(--main-color-3);
 }
 .shop .left .search .form-group {
     margin: 0 0 20px;
@@ -2115,7 +2117,7 @@ form .bootstrap-select .btn{
 .shop .left .search .btn {
     position: absolute;
     background: none;
-    bottom: 9px;
+    bottom: 5px;
     right: 15px;
     border-radius: 0;
     padding: 0;
@@ -2354,8 +2356,14 @@ form .bootstrap-select .btn{
 ---------------------- */
 .shopdetail .image{
 	border-radius:4px;
-	border:1px solid #e5e5e5;
+	border:1px solid var(--main-color-3);
 }
+
+.image img{
+	border-radius:4px;
+
+}
+
 .shopdetail h2{
 	margin:0 0 15px;
 	font-size:24px;
@@ -3910,8 +3918,70 @@ input{
 	color:var(--main-color-3-hard)!important;
 	font-weight: 600;
 	font-size: 0.8rem!important;
-
 }
+
+/* --------- Imagen superior de our-menu.html--------- */
+
+#banner-our-menu{
+	object-fit: cover;
+}
+
+.form-control:focus{
+	border: 1px solid var(--main-color-1-extralight)!important;
+	box-shadow: 0px 0px 6px 0px var(--main-color-1-extralight);
+}
+
+/* Se creó una clase adicional para los input que no están en la zona de reservación*/
+
+/* --------- Formulario página shopdetail.html--------- */
+
+.form-control-2{
+	border: 1px solid var(--main-color-3)!important;
+	color: var(--main-color-3)!important;
+}
+
+.form-control-2:focus{
+	border: 1px solid var(--main-color-2)!important;
+	box-shadow: 0px 0px 6px 0px var(--main-color-3-soft);
+}
+
+/* color de un input radio */
+
+input[type="radio"]{
+	accent-color: var(--main-color-3)!important;
+}
+
+/* === SEARCH BAR ====*/
+
+/* color de place holder el elemento input */
+
+.form-control-3::placeholder {
+	color: var(--main-color-1-soft)!important;
+	font-weight: 300;
+}
+
+/* color del borde del elemento input SIN hacer click*/
+.form-control-3{
+	border: 3px solid var(--main-color-2)!important;
+}
+
+/* color del borde del elemento input al hacer click*/
+
+.form-control-3:focus{
+	border: 3px solid var(--main-color-3)!important;
+}
+
+/* color de texto al escribir sobre elemento input */
+
+.form-control-3{
+	color: var(--main-color-3)!important;
+	font-weight: 800!important;
+}
+
+/*========= Adicionales =========*/
+
+
+
 
 /* == APORTE DE LUIS  == */
 
@@ -3972,6 +4042,11 @@ input{
 .enlace-icon-footer:hover{
 	color: var(--main-color-2)!important;
 }
+
+.owl-nav .owl-next .icofont-scroll-bubble-right, .owl-nav .owl-prev .icofont-scroll-bubble-left{
+	color: var(--main-color-3-hard)!important;
+}
+
 
 
 
