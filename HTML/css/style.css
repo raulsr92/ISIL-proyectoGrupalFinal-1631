@@ -4180,6 +4180,10 @@ iframe{
 	outline: 2px solid var(--main-color-1-soft);
 }
 
+.form-control-6{
+	padding-top: 10px!important;
+}
+
 
 /* == APORTE DE LUIS  == */
 
