@@ -4135,6 +4135,14 @@ input[type="radio"]{
 	color: var(--main-color-3)!important;
 }
 
+
+/*Hacer responsive el contador*/
+
+#numeracion-vistas{
+	flex-wrap: wrap;
+	row-gap: 20px;
+}
+
 /*========= Estilos en contact_us.html =========*/
 
 iframe{
@@ -4183,6 +4191,19 @@ iframe{
 
 .form-control-6{
 	padding-top: 10px!important;
+}
+
+@media (max-width:768px) {
+
+	.enlace-icon-circle-vivid{
+		width: 25px!important;
+		height: 25px!important;
+	}
+
+	.box-social-media ul{
+		gap:5px;
+	}
+
 }
 
 
